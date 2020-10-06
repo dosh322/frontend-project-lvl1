@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "description": "",
   "main": "bin/brain-games.js",
@@ -21,7 +22,8 @@
   },
   "homepage": "https://github.com/dosh322/frontend-project-lvl1#readme",
   "dependencies": {
-    "promptly": "^3.0.3"
+    "promptly": "^3.0.3",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "eslint": "^7.10.0",
