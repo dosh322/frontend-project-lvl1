@@ -10,3 +10,8 @@ How to install:
 Brain-Even game preview:
 
 [![Brain Even](https://asciinema.org/a/mgOei0DRpW3K7PacAN2oOHtWt.svg)](https://asciinema.org/a/mgOei0DRpW3K7PacAN2oOHtWt)
+
+
+Brain-Calc game preview:
+
+[![Brain Calc](https://asciinema.org/a/4XAuc3ekXXrEs9BUOd33gSQ3R.svg)](https://asciinema.org/a/4XAuc3ekXXrEs9BUOd33gSQ3R)
