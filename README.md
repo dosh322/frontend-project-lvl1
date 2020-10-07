@@ -15,3 +15,7 @@ Brain-Even game preview:
 Brain-Calc game preview:
 
 [![Brain Calc](https://asciinema.org/a/4XAuc3ekXXrEs9BUOd33gSQ3R.svg)](https://asciinema.org/a/4XAuc3ekXXrEs9BUOd33gSQ3R)
+
+Brain-gcd game preview:
+
+[![Brain GCD](https://asciinema.org/a/J6n0pta741iIpiKVmqbUELaY9.svg)](https://asciinema.org/a/J6n0pta741iIpiKVmqbUELaY9)
