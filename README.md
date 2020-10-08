@@ -23,6 +23,6 @@
 
 [![Brain-progression](https://asciinema.org/a/d9g35R8PCUoTewhX5Wna92TLG.svg)](https://asciinema.org/a/d9g35R8PCUoTewhX5Wna92TLG)
 
-## Brain-even preview:
+## Brain-prime preview:
 
-[![Brain-even](https://asciinema.org/a/R51XxrWKz98fZvQj8LGWB4EGq.svg)](https://asciinema.org/a/R51XxrWKz98fZvQj8LGWB4EGq)
+[![Brain-prime](https://asciinema.org/a/R51XxrWKz98fZvQj8LGWB4EGq.svg)](https://asciinema.org/a/R51XxrWKz98fZvQj8LGWB4EGq)
