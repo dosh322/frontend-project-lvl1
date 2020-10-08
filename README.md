@@ -19,3 +19,7 @@ Brain-Calc game preview:
 Brain-gcd game preview:
 
 [![Brain GCD](https://asciinema.org/a/J6n0pta741iIpiKVmqbUELaY9.svg)](https://asciinema.org/a/J6n0pta741iIpiKVmqbUELaY9)
+
+Brain-progression preview:
+
+[![Brain-progression](https://asciinema.org/a/d9g35R8PCUoTewhX5Wna92TLG.svg)](https://asciinema.org/a/d9g35R8PCUoTewhX5Wna92TLG)
