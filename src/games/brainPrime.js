@@ -13,14 +13,14 @@ const isPrime = (num) => {
   return true;
 };
 
-const getAnswerAndQuestion = () => {
+const getQuestionAndAnswer = () => {
   const question = getRandomInt(0, 100);
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
 
 const primeGame = () => {
-  runGame(gameRules, getAnswerAndQuestion);
+  runGame(gameRules, getQuestionAndAnswer);
 };
 
 export default primeGame;

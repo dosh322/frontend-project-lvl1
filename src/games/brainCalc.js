@@ -1,6 +1,5 @@
 import runGame from '../index.js';
-
-const getRandomInt = (max) => Math.floor(Math.random() * Math.floor(max));
+import getRandomInt from '../random.js';
 
 const operators = ['+', '-', '*'];
 
@@ -22,20 +21,20 @@ const calculate = (num1, num2, operator) => {
       console.log('error');
   }
 
-  return correctAnswer.toString();
+  return correctAnswer;
 };
 
-const getAnswerAndQuestion = () => {
-  const operator = operators[getRandomInt(operators.length)];
-  const num1 = getRandomInt(100);
-  const num2 = getRandomInt(100);
+const getQuestionAndAnswer = () => {
+  const operator = operators[getRandomInt(0, operators.length)];
+  const num1 = getRandomInt(0, 100);
+  const num2 = getRandomInt(0, 100);
   const question = `${num1} ${operator} ${num2}`;
-  const correctAnswer = calculate(num1, num2, operator);
+  const correctAnswer = calculate(num1, num2, operator).toString();
   return [question, correctAnswer];
 };
 
 const calcGame = () => {
-  runGame(gameRules, getAnswerAndQuestion);
+  runGame(gameRules, getQuestionAndAnswer);
 };
 
 export default calcGame;
