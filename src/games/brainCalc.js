@@ -6,22 +6,16 @@ const operators = ['+', '-', '*'];
 const gameRules = 'What is the result of the expression?';
 
 const calculate = (num1, num2, operator) => {
-  let correctAnswer;
   switch (operator) {
     case '+':
-      correctAnswer = num1 + num2;
-      break;
+      return num1 + num2;
     case '-':
-      correctAnswer = num1 - num2;
-      break;
+      return num1 - num2;
     case '*':
-      correctAnswer = num1 * num2;
-      break;
+      return num1 * num2;
     default:
-      console.log('error');
+      return 'Error. Unidentified operator';
   }
-
-  return correctAnswer;
 };
 
 const getQuestionAndAnswer = () => {
