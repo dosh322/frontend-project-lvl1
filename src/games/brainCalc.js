@@ -3,7 +3,7 @@ import getRandomInt from '../random.js';
 
 const operators = ['+', '-', '*'];
 
-const gameRules = 'What is the result of the expression?';
+const gameRule = 'What is the result of the expression?';
 
 const calculate = (num1, num2, operator) => {
   switch (operator) {
@@ -28,7 +28,7 @@ const getQuestionAndAnswer = () => {
 };
 
 const calcGame = () => {
-  runGame(gameRules, getQuestionAndAnswer);
+  runGame(gameRule, getQuestionAndAnswer);
 };
 
 export default calcGame;
